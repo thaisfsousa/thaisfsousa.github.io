@@ -1,1 +1,67 @@
-<h1>Thais</h1>
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <title> Dont panic baby!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./dont_panic/css/styles.css">
+   </head>
+   <body>
+    <header>
+        <div class="container_header">
+        <div class="logo_texto">DON'T PANIC BABY!</div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="sbutton" id="sbutton">
+            <button class="button start" id="start"  onclick="start_game()"> NOVO JOGO </button>
+        </div>
+        <div class="jogo" id="jogo" >
+            <h2 style="margin-bottom: 20px;">Insira uma equação: </h2>
+            <div id="game">    
+                <script src="./dont_panic/app.js"></script>
+            </div>
+                <div class="keyboard">
+                <button class="button" id=botao onclick="addNumup('0')"> 0 </button>
+                <button class="button" id=botao onclick="addNumup('1')"> 1 </button> 
+                <button class="button" id=botao onclick="addNumup('2')"> 2 </button>
+                <button class="button" id=botao onclick="addNumup('3')"> 3 </button>
+                <button class="button" id=botao onclick="addNumup('4')"> 4 </button>
+                <button class="button" id=botao onclick="addNumup('5')"> 5 </button>
+                <button class="button" id=botao onclick="addNumup('6')"> 6 </button>
+                <button class="button" id=botao onclick="addNumup('7')"> 7 </button>
+                <button class="button" id=botao onclick="addNumup('8')"> 8 </button>
+                <button class="button" id=botao onclick="addNumup('9')"> 9 </button>
+                <div class="new">
+                    <button class="button" name="+" id="+" onclick="addNumup('+')"> + </button>
+                    <button class="button" name="-" id="-" onclick="addNumup('-')"> - </button>
+                    <button class="button" name="*" id="*" onclick="addNumup('*')"> * </button>
+                    <button class="button" name="/" id="/" onclick="addNumup('/')"> / </button>
+                    <button class="button" name="DEL" id="DEL" style="width: 95px;" onclick="removeNum()"> DEL </button>
+                    <button class="button" name="GO" id="GO" style="width: 80px;" onclick="sendTry()"> GO </button>
+                </div>
+            </div>
+        </div>
+        <button class="button try-again" id="try-again" href="http://127.0.0.1:5500/front/" onclick="refresh_page()"> TENTE OUTRA VEZ </button>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading-footer-1">
+                    <h2><a href="https://github.com/FT-LabsRJ/dontpanic_baby/blob/develop/README.md" target="_blank">Como Jogar</a></h2>
+                </div>
+                    <div class="tooltip" style="margin-left: 150px;"> Contribuidores
+                    <span class="tooltiptext"> Mateus Pinna <br> Douglas Coutinho <br> Marlon Reis <br> Marlon P. </span>
+                </div>
+                <div class="footer-heading-footer-1">
+                <h2>
+                    <a style="margin-right: 80px;" href="https://www.linkedin.com/in/thaisfsousa/" target="_blank">Thais Sousa</a> </h2>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
