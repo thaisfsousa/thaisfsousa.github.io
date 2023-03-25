@@ -1,7 +1,8 @@
 html,
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: #cadddfc7;
+  margin: 0px;
   max-height: 100vw;
   max-height: 100vh;
 }
