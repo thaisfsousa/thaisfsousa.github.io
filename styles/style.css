@@ -14,11 +14,18 @@ body {
 
 }
 
+
+a:hover img {
+  transform: scale(1.5);
+  transition: 0ms ease-in;
+  cursor: pointer;
+  filter: brightness(80);
+  opacity: 100;
+}
+
 a:hover {
   text-decoration: underline;
   transform: translate3d(10%, 0, 0);
-  transition: 100ms ease-in-out;
-  filter: brightness(10);
   font-weight: 800;
 }
 
@@ -139,24 +146,22 @@ a:hover {
   }
 }
 
-
 .header {
   margin-top: 0px;
   margin-left: 85%;
   border-bottom: 3px solid black;
 }
 
-img {
-  padding: 5px;
-  margin-top: 5px;
-  width: 50px;
+#github,
+#linkedin {
+  filter: invert(0.8);
+  width: 25%;
+  cursor: pointer;
 }
 
-img:hover {
-  transform: scale(1.2);
-  transition: 50ms ease-in-out;
-  filter: invert(0.8) sepia(1) hue-rotate(200deg);
-  cursor: pointer;
+#github:hover,
+#linkedin:hover {
+  transform: scale(1.5);
 }
 
 body {
@@ -173,6 +178,24 @@ body {
   opacity: 80%;
   padding: 30px;
   border-radius: 15px;
+}
+
+#panic:hover,
+#snake:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transform: translate3d(10%, 0, 0);
+  transition: 1200ms ease;
+  filter: brightness(10);
+  font-weight: 800;
+}
+
+.hidden {
+  display: none
+}
+
+.show {
+  display: block;
 }
 
 .name-content {
@@ -210,18 +233,24 @@ body {
 }
 
 .dev {
-  margin-left: 60px;
-  padding: 2px;
-  display: inline;
-  display: none;
+  padding-top: 60px;
   font-size: 25px;
+  color: #c4c2c2;
+  display: none;
 }
 
-.name-content:hover .dev {
-  display: block;
+.name {
+  display: flex;
+  max-height: 30px;
+}
+
+.name:hover {
   cursor: pointer;
 }
 
+.name:hover .dev {
+  display: block;
+}
 
 .init {
   margin-top: 40px;
