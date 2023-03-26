@@ -248,6 +248,11 @@ body {
   cursor: pointer;
 }
 
+.contato {
+  font-size: 25px;
+}
+
+
 .back {
   width: 60px;
   filter: invert(5.0) sepia(1);

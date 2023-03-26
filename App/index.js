@@ -7,6 +7,7 @@ document.getElementById("back").onclick = function (){window.location.reload();}
 document.getElementById("back1").onclick = function (){window.location.reload();}
 document.getElementById("back2").onclick = function (){window.location.reload();}
 document.getElementById("back3").onclick = function (){window.location.reload();}
+document.getElementById("panic").onclick = function (){window.open("https://thaisfsousa.github.io/dont_panic/index.html");}
 document.getElementById("linkedin").onclick = function (){window.open("https://www.linkedin.com/in/thaisfsousa/");}
 document.getElementById("github").onclick = function (){window.open("https://github.com/thaisfsousa");}
 
