@@ -181,6 +181,7 @@ body {
 }
 
 #panic:hover,
+#cub3d:hover,
 #snake:hover {
   cursor: pointer;
   text-decoration: underline;
