@@ -1,5 +1,6 @@
 document.getElementById("panic").onclick = function (){window.open("https://thaisfsousa.github.io/dontPanic/");}
 document.getElementById("snake").onclick = function (){window.open("https://thaisfsousa.github.io/snakeGame/index.html");}
+document.getElementById("cub3d").onclick = function (){window.open("https://thaisfsousa.github.io/raycasting/index.html");}
 document.getElementById("linkedin").onclick = function (){window.open("https://www.linkedin.com/in/thaisfsousa/");}
 document.getElementById("github").onclick = function (){window.open("https://github.com/thaisfsousa");}
 document.getElementById("1").onclick = function (){changedisplay("thais1");}
